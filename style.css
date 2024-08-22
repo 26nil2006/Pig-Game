@@ -291,7 +291,7 @@ main {
   }
   .btn--hold {
     position: absolute;
-    left: 40rem;
+    left: -3rem;
     right: unset;
     top: unset;
     bottom: 9rem;
@@ -301,7 +301,7 @@ main {
     position: absolute;
     left: 50%;
     top: unset;
-    bottom: 7rem;
+    bottom: 8rem;
     transform: translateX(-50%);
     height: 7rem;
     box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
