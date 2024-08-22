@@ -279,29 +279,29 @@ main {
 
   .btn--new {
     position: absolute;
-    left: 19rem;
-    top: 14rem;
+    left: 5rem;
+    top: 5rem;
   }
   .btn--roll {
     position: absolute;
-    left: 19rem;
+    left: 5rem;
     right: unset;
     top: unset;
-    bottom: 7rem;
+    bottom: 3rem;
   }
   .btn--hold {
     position: absolute;
     left: unset;
     right: 1rem;
     top: unset;
-    bottom: 7rem;
+    bottom: 3rem;
   }
 
   .dice {
     position: absolute;
-    left: 54%;
+    left: 50%;
     top: unset;
-    bottom: 7rem;
+    bottom: 5rem;
     transform: translateX(-50%);
     height: 7rem;
     box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
