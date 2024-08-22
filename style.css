@@ -279,22 +279,22 @@ main {
 
   .btn--new {
     position: absolute;
-    left: 10rem;
+    left: 12rem;
     top: 14rem;
   }
   .btn--roll {
     position: absolute;
-    left: 10rem;
+    left: 12rem;
     right: unset;
     top: unset;
-    bottom: 7rem;
+    bottom: 9rem;
   }
   .btn--hold {
     position: absolute;
     left: unset;
-    right: 0.1rem;
+    right: 10%;
     top: unset;
-    bottom: 7rem;
+    bottom: 9rem;
   }
 
   .dice {
