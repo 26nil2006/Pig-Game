@@ -5,7 +5,7 @@ Welcome to the **Pig Game** repository! This is a fun, interactive dice game imp
 ## Game Overview
 
 <p align="center">
-  <img src="/Pig-Game/Pig game Screenshot .png" alt="Pig Game Screenshot" width="600"/>
+  <img src="Pig game Screenshot .png" alt="Pig Game Screenshot" width="600"/>
 </p>
 
 The Pig Game is a simple yet entertaining game where two players compete to reach a target score first. The rules are straightforward:
