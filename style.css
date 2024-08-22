@@ -291,7 +291,7 @@ main {
   }
   .btn--hold {
     position: absolute;
-    left: 25rem;
+    left: 90%;
     right: unset;
     top: unset;
     bottom: 9rem;
