@@ -224,7 +224,7 @@ main {
 
   main {
     width: 60rem;
-    height: 45rem;
+    height: 80%;
     flex-direction: column;
   }
 
