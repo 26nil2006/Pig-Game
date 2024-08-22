@@ -12,6 +12,7 @@ html {
 }
 
 body {
+  position: relative;
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
   height: 100vh;
@@ -223,14 +224,15 @@ main {
   }
 
   body {
-    position: relative;
+    margin: 0;
   }
 
   main {
     position: static;
-    width: 60rem;
-    height: 60%;
+    width: 50rem;
+    height: 57%;
     flex-direction: column;
+    margin: 0 auto;
   }
 
   .player {
@@ -251,17 +253,57 @@ main {
     padding: 1rem;
   }
 
-  .btn--roll {
-    position: absolute;
-    bottom: 1rem;
+  .btn {
+    transform: translateX(-50%);
+    color: #444;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 400;
+    transition: all 0.2s;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 0.7rem 2.5rem;
+    border-radius: 50rem;
+    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
   }
 
+  .btn::first-letter {
+    font-size: 2.4rem;
+    display: inline-block;
+    margin-right: 0.7rem;
+  }
+
+  .btn--new {
+    position: absolute;
+    left: 19rem;
+    top: 14rem;
+  }
+  .btn--roll {
+    position: absolute;
+    left: 19rem;
+    right: unset;
+    top: unset;
+    bottom: 7rem;
+  }
   .btn--hold {
-    top: 36rem;
+    position: absolute;
+    left: unset;
+    right: 1rem;
+    top: unset;
+    bottom: 7rem;
   }
 
   .dice {
-    top: 11rem;
+    position: absolute;
+    left: 54%;
+    top: unset;
+    bottom: 7rem;
+    transform: translateX(-50%);
     height: 7rem;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
   }
 }
