@@ -222,7 +222,12 @@ main {
     font-size: 45%;
   }
 
+  body {
+    position: relative;
+  }
+
   main {
+    position: static;
     width: 60rem;
     height: 60%;
     flex-direction: column;
