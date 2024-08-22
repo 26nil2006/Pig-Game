@@ -279,12 +279,12 @@ main {
 
   .btn--new {
     position: absolute;
-    left: 19rem;
+    left: 10rem;
     top: 14rem;
   }
   .btn--roll {
     position: absolute;
-    left: 19rem;
+    left: 10rem;
     right: unset;
     top: unset;
     bottom: 7rem;
@@ -292,14 +292,14 @@ main {
   .btn--hold {
     position: absolute;
     left: unset;
-    right: 1rem;
+    right: 0.1rem;
     top: unset;
     bottom: 7rem;
   }
 
   .dice {
     position: absolute;
-    left: 54%;
+    left: 50%;
     top: unset;
     bottom: 7rem;
     transform: translateX(-50%);
