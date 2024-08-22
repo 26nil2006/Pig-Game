@@ -291,8 +291,8 @@ main {
   }
   .btn--hold {
     position: absolute;
-    left: -3rem;
-    right: unset;
+    left: unset;
+    right: -3rem;
     top: unset;
     bottom: 9rem;
   }
