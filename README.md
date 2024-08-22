@@ -5,7 +5,7 @@ Welcome to the **Pig Game** repository! This is a fun, interactive dice game imp
 ## Game Overview
 
 <p align="center">
-  <img src="https://via.placeholder.com/600x300.png?text=Pig+Game+Screenshot" alt="Pig Game Screenshot" width="600"/>
+  <img src="/Pig-Game/Pig game Screenshot .png" alt="Pig Game Screenshot" width="600"/>
 </p>
 
 The Pig Game is a simple yet entertaining game where two players compete to reach a target score first. The rules are straightforward:
@@ -13,7 +13,7 @@ The Pig Game is a simple yet entertaining game where two players compete to reac
 - 🎲 **Roll the Die:** Players take turns rolling a single die. The number rolled adds to their turn total.
 - 🚫 **Rolling a 1:** If a player rolls a 1, they lose their turn, and their turn total resets to zero.
 - ✋ **Hold:** Players can choose to hold, adding their turn total to their global score and passing the turn to the other player.
-- 🏆 **Winning:** The first player to reach the target score (e.g., 100 points) wins the game!
+- 🏆 **Winning:** The first player to reach the target score of **100 points** wins the game!
 
 ## Features
 
@@ -25,5 +25,5 @@ The Pig Game is a simple yet entertaining game where two players compete to reac
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Pig-Game.git
+   git clone https://github.com/26nil2006/Pig-Game.git
    ```
