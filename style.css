@@ -169,3 +169,93 @@ main {
 .hidden {
   display: none;
 }
+
+/* MEDIA QUERIES */
+
+/* Tablet View */
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+
+  main {
+    width: 80rem;
+    height: 50rem;
+    flex-direction: column;
+  }
+
+  .player {
+    flex: 100%;
+    padding: 6rem;
+  }
+
+  .name {
+    font-size: 3.5rem;
+  }
+
+  .score {
+    font-size: 7rem;
+  }
+
+  .current {
+    width: 75%;
+    padding: 1.5rem;
+  }
+
+  .btn--roll {
+    top: 34rem;
+  }
+
+  .btn--hold {
+    top: 40rem;
+  }
+
+  .dice {
+    top: 13rem;
+    height: 8rem;
+  }
+}
+
+/* Mobile View */
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 45%;
+  }
+
+  main {
+    width: 60rem;
+    height: 45rem;
+    flex-direction: column;
+  }
+
+  .player {
+    flex: 100%;
+    padding: 4rem;
+  }
+
+  .name {
+    font-size: 3rem;
+  }
+
+  .score {
+    font-size: 6rem;
+  }
+
+  .current {
+    width: 85%;
+    padding: 1rem;
+  }
+
+  .btn--roll {
+    top: 30rem;
+  }
+
+  .btn--hold {
+    top: 36rem;
+  }
+
+  .dice {
+    top: 11rem;
+    height: 7rem;
+  }
+}
