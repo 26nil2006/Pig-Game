@@ -252,6 +252,7 @@ main {
   }
 
   .btn--roll {
+    position: absolute;
     bottom: 1rem;
   }
 
