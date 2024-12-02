@@ -27,3 +27,6 @@ The Pig Game is a simple yet entertaining game where two players compete to reac
    ```bash
    git clone https://github.com/26nil2006/Pig-Game.git
    ```
+
+## Let's Play
+https://nil-pig-game.netlify.app/
