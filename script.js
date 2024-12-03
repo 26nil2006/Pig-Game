@@ -19,6 +19,30 @@ diceEl.classList.add('hidden');
 
 let scores, currentScore, activePlayer, playing;
 
+window.onload = function () {
+  const rulesDiv = document.querySelector('.rules-container');
+  const closeButton = document.querySelector('.close-button');
+  const overlay = document.querySelector('.overlay');
+
+  // Show rules and blur background on load
+  rulesDiv.style.display = 'flex';
+  overlay.style.display = 'block';
+
+  // Close the rules when clicking the close button
+  closeButton.addEventListener('click', () => {
+    rulesDiv.style.display = 'none';
+    overlay.style.display = 'none';
+  });
+
+  // Close the rules when clicking outside the rules box
+  overlay.addEventListener('click', event => {
+    if (!rulesDiv.contains(event.target)) {
+      rulesDiv.style.display = 'none';
+      overlay.style.display = 'none';
+    }
+  });
+};
+
 const init = function () {
   scores = [0, 0];
   currentScore = 0;

@@ -8,6 +8,34 @@
     <title>Pig Game</title>
   </head>
   <body>
+    <div class="overlay"></div>
+    <div class="rules-container">
+      <div class="rules">
+        <div class="rules-header">
+          <h2>Game Overview</h2>
+          <button class="close-button">✖</button>
+        </div>
+        <ul>
+          <li>
+            <b>🎲 Roll the Die:</b> Players take turns rolling a single die. The
+            number rolled adds to their turn total.
+          </li>
+          <li>
+            <b>🚫 Rolling a 1:</b> If a player rolls a 1, they lose their turn,
+            and their turn total resets to zero.
+          </li>
+          <li>
+            <b>✋ Hold:</b> Players can choose to hold, adding their turn total
+            to their global score and passing the turn to the other player.
+          </li>
+          <li>
+            <b>🏆 Winning:</b> The first player to reach the target score of 100
+            points wins the game!
+          </li>
+        </ul>
+      </div>
+    </div>
+
     <main>
       <section class="player player--0 player--active">
         <h2 class="name" id="name--0">Player 1</h2>
